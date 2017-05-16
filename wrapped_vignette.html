@@ -248,7 +248,7 @@ All_association_matrix &lt;- transcriptional_responses$AssociationMatrix_perModu
 <pre class="r"><code>association_rules &lt;-  Apriori$new(dataset = All_association_matrix)
 
 association_rules$run_apriori(supp = 0.3, conf = 1 )
-association_rules$plot_graph(400, by = &quot;support&quot;)</code></pre>
+association_rules$plot_graph(200, by = &quot;support&quot;)</code></pre>
 </div>
 <div id="plot-association-rules-in-cytoscape" class="section level3">
 <h3>Plot association rules in cytoscape</h3>
